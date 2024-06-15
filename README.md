@@ -1,5 +1,10 @@
 # LED-Audio-Meter
-Web based peak level (VU) meter.
+Browser based peak level (VU) meter.
+
+- Mainly CSS, some Javascript and Websocket magic.
+- Backend is Python/Flask
+
+(Go see [pcm-peak-level-filter](https://github.com/dagent/pcm-peak-level-filter), which has an example using this which is much leaner and doesn't require socket.io.js or any python.)
 
 ## Motivation
 
